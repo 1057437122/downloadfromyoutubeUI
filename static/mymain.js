@@ -1,7 +1,6 @@
 var index_layer;
 jQuery('#analysis_url').click(function(){
   url = jQuery('#origin_url').val();
-alert(url);
   jQuery.ajax({
     url:'/get_video_info',
     type:'POST',
